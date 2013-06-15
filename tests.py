@@ -32,7 +32,7 @@ class CondicionadorTestCase(unittest.TestCase):
                       condicionador.refrigera estão errados: %s' % err)
 
     def test_reduz_um_grau_baixa_temperatura(self):
-        temperatura_atual = self.condicionador.temperatural_atual
+        temperatura_atual = self.condicionador.temperatura_atual
         self.condicionador.reduz_um_grau()
         self.assertEqual(
             self.condicionador.temperatura_atual,
