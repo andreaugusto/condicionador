@@ -23,7 +23,9 @@ class Condicionador():
         max_temp = temp_desejada + Condicionador.VARIACAO_TEMP_ACEITAVEL
         custo_total = 0
 
-        while temp_atual > float(max_temp):
+        temp_atual = float(temp_atual)
+        max_temp = float(max_temp)
+        while temp_atual > max_temp:
             temp_atual, custo_operacao = self.reduz_um_grau(temp_atual)
             custo_total += custo_operacao
 
