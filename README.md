@@ -17,7 +17,7 @@ Para executar testes e desafio:
 ./configure && make
 ```
 
-Para utilizar os parâmetros default do desafio:
+Para executar o desafio com os parâmetros default:
 ```
 make run
 ```
