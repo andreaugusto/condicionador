@@ -19,12 +19,12 @@ Para executar testes e desafio:
 
 Para utilizar os parâmetros default do desafio:
 ```
-python simulador.py
+python runner.py
 ```
 
 Para utilizar outros parâmetros na simulação:
 ```
-python simulador.py [-h] [minuto] [temperatura_atual] [temperatura_desejada]
+python runner.py [-h] [minuto] [temperatura_atual] [temperatura_desejada]
 ```
 
 Para executar os testes com tox:
