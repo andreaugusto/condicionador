@@ -19,7 +19,7 @@ Para executar testes e desafio:
 
 Para utilizar os parâmetros default do desafio:
 ```
-python runner.py
+make run
 ```
 
 Para utilizar outros parâmetros na simulação:
