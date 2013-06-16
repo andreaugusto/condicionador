@@ -3,6 +3,9 @@ import logging
 import hardware
 
 
+logger = logging.getLogger(__name__)
+
+
 class Condicionador():
 
     CUSTO_LIGAR_COMPRESSOR = 0.5
@@ -45,7 +48,7 @@ class Condicionador():
         try:
             hardware.reduz_um_grau()
         except Exception as err:
-            logging.error(
+            logger.error(
                 "Erro ao reduzir temperatura: {error}".format(error=err)
             )
             raise
@@ -57,7 +60,7 @@ class Condicionador():
         try:
             hardware.ligar_compressor()
         except Exception as err:
-            logging.error(
+            logger.error(
                 "Falha ao ligar compressor: {error}".format(error=err)
             )
             raise
@@ -68,7 +71,7 @@ class Condicionador():
         try:
             hardware.desligar_compressor()
         except Exception as err:
-            logging.error(
+            logger.error(
                 "Falha ao desligar compressor: {error}".format(error=err)
             )
             raise
