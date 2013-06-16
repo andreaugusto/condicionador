@@ -2,7 +2,7 @@
 
 import unittest
 
-from simulador import Simulador
+from simulacao.simulador import Simulador
 from .tests_condicionador import CondicionadorTestCase
 
 

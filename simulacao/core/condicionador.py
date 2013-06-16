@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 
-from nucleo import hardware
+from . import hardware
 
 
 logger = logging.getLogger(__name__)

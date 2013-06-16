@@ -4,7 +4,7 @@ all: test run clean
 
 run:
 	@echo "\n-----Executando Simulador-----"
-	python simulador.py
+	python runner.py
 
 test:
 	@echo "\n-----Instalando depedências dos testes-----"
