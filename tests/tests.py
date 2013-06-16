@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import unittest
 
-from condicionador import Condicionador
+from core.condicionador import Condicionador
 from simulador import Simulador
 
 

@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import logging
 
-import hardware
+from core import hardware
 
 
 logger = logging.getLogger(__name__)

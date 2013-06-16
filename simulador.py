@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 import logging
 
-from condicionador import Condicionador
+from core.condicionador import Condicionador
 
 
 logger = logging.getLogger("simulador")
