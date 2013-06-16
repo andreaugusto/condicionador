@@ -1,7 +1,7 @@
 .PHONY: test run
 
 run:
-	python simulador.py
+	python3 simulador.py
 
 test:
-	python -m unittest tests
+	python3 -m unittest tests
