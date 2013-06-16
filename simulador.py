@@ -9,7 +9,7 @@ logger = logging.getLogger("simulador")
 class Simulador:
 
     VARIACAO_TEMPERATURA_POR_MINUTO = 0.5
-    INFO_FINAL = "Temperatura: {temperatura} | Custo: R${custo:f}"
+    INFO_FINAL = "Temperatura: {temperatura} | Custo: R${custo:.2f}"
 
     def __init__(self):
         self.condicionador = Condicionador()
