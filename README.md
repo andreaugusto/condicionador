@@ -4,7 +4,7 @@
 
 Dependências:
 * python >= 2.7
-* pip (para testes)
+* pip (para instalar as dependências dos testes)
 
 Inicie por aqui:
 ```
