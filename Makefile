@@ -10,8 +10,7 @@ test:
 	@echo "\n-----Instalando depedências dos testes-----"
 	@pip install -r test_requirements.txt
 	@echo "\n-----Executando testes-----"
-	flake8 .
-	nosetests --with-coverage
+	tox
 
 clean:
 	@echo "\n-----Limpando diretório-----"
