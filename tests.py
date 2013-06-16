@@ -92,15 +92,15 @@ class SimuladorTestCase(unittest.TestCase):
             temperatura_atual + SimuladorTestCase.AUMENTO_TEMP_MINUTO
         )
 
-    def test_executa_retorna_tupla(self):
-        retorno = self.simulador.executa(360, 30, 20)
+    def test_executar_retorna_tupla(self):
+        retorno = self.simulador.executar(360, 30, 20)
         self.assertIsInstance(retorno, tuple)
         self.assertEqual(len(retorno), 2)
 
     def test_simulador_calcula_temperatura_correta(self):
         temperatura = 18
         temp_esperada = temperatura + SimuladorTestCase.AUMENTO_TEMP_MINUTO
-        temp_recebida, custo = self.simulador.executa(
+        temp_recebida, custo = self.simulador.executar(
             1,
             temperatura,
             temperatura
@@ -108,11 +108,11 @@ class SimuladorTestCase(unittest.TestCase):
         self.assertEqual(temp_recebida, temp_esperada)
 
     def test_simulador_calcula_valor_correto(self):
-        temp, custo = self.simulador.executa(1, 18, 18)
+        temp, custo = self.simulador.executar(1, 18, 18)
         self.assertEqual(custo, 0)
 
     def test_simulador_calcula_valor_correto_2(self):
-        temp, custo = self.simulador.executa(6, 18, 18)
+        temp, custo = self.simulador.executar(6, 18, 18)
         self.assertEqual(
             custo,
             CondicionadorTestCase.CUSTO_LIGAR_COMPRESSOR +

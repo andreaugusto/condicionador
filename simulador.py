@@ -25,7 +25,7 @@ class Simulador:
             )
         )
 
-    def executa(self, minutos, temp_atual, temp_desejada):
+    def executar(self, minutos, temp_atual, temp_desejada):
         temperatura = temp_atual
         custo_total = 0
         for x in range(minutos):
