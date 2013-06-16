@@ -6,4 +6,5 @@ setup(name='condicionador',
       author='Andre Augusto',
       author_email='andre.augustosc@gmail.com',
       url='https://github.com/andreaugusto/condicionador/',
+      packages = ['simulacao'],
       )
