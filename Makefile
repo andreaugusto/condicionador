@@ -15,4 +15,4 @@ test:
 clean:
 	@echo "\n-----Limpando diretório-----"
 	@find . -name \*.pyc -delete
-	@rm -Rf htmlcov
+	@rm -Rf htmlcov build MANIFEST
