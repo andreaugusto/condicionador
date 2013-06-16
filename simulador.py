@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 
-from core.condicionador import Condicionador
+from nucleo.condicionador import Condicionador
 
 
 logger = logging.getLogger("simulador")

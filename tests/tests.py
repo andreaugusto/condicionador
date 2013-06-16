@@ -2,7 +2,7 @@
 
 import unittest
 
-from core.condicionador import Condicionador
+from nucleo.condicionador import Condicionador
 from simulador import Simulador
 
 

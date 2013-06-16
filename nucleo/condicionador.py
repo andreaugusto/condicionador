@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import logging
 
-from core import hardware
+from nucleo import hardware
 
 
 logger = logging.getLogger(__name__)
