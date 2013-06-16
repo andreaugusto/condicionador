@@ -1,3 +1,5 @@
+[![Build Status](https://drone.io/github.com/andreaugusto/condicionador/status.png)](https://drone.io/github.com/andreaugusto/condicionador/latest)
+
 Sistema de Ar-Condicionado
 
 A ACME ltda. está produzindo um novo ar-condicionado totalmente
