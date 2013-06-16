@@ -9,6 +9,7 @@ run:
 test:
 	@echo "\n-----Executando testes-----"
 	@pip install -qr test_requirements.txt
+	flake8 .
 	nosetests --with-coverage
 
 clean:
