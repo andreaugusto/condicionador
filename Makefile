@@ -1,5 +1,7 @@
 .PHONY: test run
 
+all: test run
+
 run:
 	python3 simulador.py
 
