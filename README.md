@@ -27,7 +27,7 @@ Para utilizar outros parâmetros na simulação:
 python simulador.py [-h] [minuto] [temperatura_atual] [temperatura_desejada]
 ```
 
-Para executar os testes com coverage + flake8:
+Para executar os testes com tox:
 ```
 make test
 ```
