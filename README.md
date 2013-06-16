@@ -38,4 +38,3 @@ inicial é de 30 graus C e a temperatura desejada é de 20 graus C.
 
 Considere para este problema que os seres humanos não conseguem diferenciar 
 temperaturas para cima ou para baixo até 2 graus.
-----------------------------------
