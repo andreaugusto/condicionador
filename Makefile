@@ -7,8 +7,9 @@ run:
 	python simulador.py
 
 test:
+	@echo "\n-----Instalando depedências dos testes-----"
+	@pip install -r test_requirements.txt
 	@echo "\n-----Executando testes-----"
-	@pip install -qr test_requirements.txt
 	flake8 .
 	nosetests --with-coverage
 
