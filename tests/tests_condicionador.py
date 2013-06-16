@@ -39,8 +39,11 @@ class CondicionadorTestCase(unittest.TestCase):
         try:
             self.condicionador.refrigera(temp_atual=10, temp_desejada=20)
         except TypeError as err:
-            self.fail('Parâmetros de entrada de \
-                      condicionador.refrigera estão errados: %s' % err)
+            self.fail(
+                "Parâmetros de entrada de " +
+                "condicionador.refrigera estão errados: {error}"
+                .format(error=err)
+            )
 
     def test_reduz_um_grau_baixa_um_grau_temperatura(self):
         temp_atual = 1
